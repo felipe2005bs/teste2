@@ -1,0 +1,23 @@
+{
+  "routes": [
+     {
+     "route": "/teste",
+     "rewrite": "/teste.html"
+    }
+   ],
+   "responseOverrides": {
+    "400": {
+      "rewrite": "/teste"
+    },
+    "401": {
+      "statusCode": 302,
+      "redirect": "/teste"
+    },
+    "403": {
+      "rewrite": "/teste"
+    },
+    "404": {
+      "rewrite": "/teste"
+    }
+  }
+}
