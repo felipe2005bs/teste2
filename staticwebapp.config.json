@@ -1,6 +1,6 @@
 {
   "routes": [
-     {
+    {
      "route": "/teste",
      "rewrite": "/teste.html"
     }
