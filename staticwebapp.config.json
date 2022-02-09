@@ -7,17 +7,18 @@
    ],
    "responseOverrides": {
     "400": {
-      "rewrite": "/teste.html"
+      "statusCode": 302,
+      "rewrite": "/error.html"
     },
     "401": {
       "statusCode": 302,
-      "redirect": "/teste"
+      "rewrite": "/error.html"
     },
     "403": {
-      "rewrite": "/teste"
+      "rewrite": "/error.html"
     },
     "404": {
-      "rewrite": "/teste"
+      "statusCode": 302,
     }
   }
 }
