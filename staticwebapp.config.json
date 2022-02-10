@@ -1,11 +1,10 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
+  
   "routes": [
     {
-     "route": "/teste",
-     "rewrite": "/teste.html"
+      "route": "/index.html",
+      "redirect": "/",
+      "statusCode": 301
     }
    ],
    "responseOverrides": {
