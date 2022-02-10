@@ -8,16 +8,7 @@
     }
    ],
    "responseOverrides": {
-    "400": {
-      "redirect": "/login",
-      "statusCode": 301
-    },
-    "401": {
-      "rewrite": "/error.html"
-    },
-    "403": {
-      "rewrite": "/error.html"
-    },
+   
     "404": {
       "rewrite": "/error.html"
     }
