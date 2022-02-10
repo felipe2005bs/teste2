@@ -10,7 +10,8 @@
    ],
    "responseOverrides": {
     "400": {
-      "rewrite": "/error.html"
+      "redirect": "/login",
+      "statusCode": 301
     },
     "401": {
       "rewrite": "/error.html"
